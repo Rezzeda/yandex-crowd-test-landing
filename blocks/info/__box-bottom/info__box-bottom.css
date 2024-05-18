@@ -1,0 +1,10 @@
+.info__box-bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 1024px){
+    .info__box-bottom {
+        flex-direction: column;
+    }
+}

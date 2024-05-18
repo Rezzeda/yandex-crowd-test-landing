@@ -1,0 +1,21 @@
+.info__text {
+    font-family: var(--accent-font);
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48.6px;
+    color: currentColor;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 27px;
+    padding: 0;
+    width: 764px;
+}
+
+@media screen and (max-width: 1024px){
+    .info__text  {
+        font-size: 28px;
+        line-height: 37.8px;
+        margin: 0;
+        width: 335px;
+    }
+}

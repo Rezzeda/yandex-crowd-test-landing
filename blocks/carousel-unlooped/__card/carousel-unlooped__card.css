@@ -1,0 +1,19 @@
+.carousel-unlooped__card {
+    width: 335px;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: var(--bg-textured-color);
+    background-image: url(../../../images/texture-bg.png);
+    background-blend-mode: color-burn;
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+    align-items: center;
+}
+
+@media screen and (max-width: 780px) {
+    .carousel-unlooped__card {
+        margin-top: 6px;
+    }
+}

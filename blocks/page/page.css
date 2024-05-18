@@ -1,0 +1,39 @@
+:root {
+    --bg-color: #FFFFFF;
+    --bg-textured-color: #E9DED4;
+    --main-text-color: #313131;
+    --main-font:  'Golos Text', Arial, sans-serif;
+    --accent-font: 'Merriweather', Arial, sans-serif;
+    --btn-color-dark: #1F1F1F;
+    --btn-color-light: transparent;
+    --btn-color-hover: #FBCE51;
+    --btn-color-disabled: ;
+    --highlight-color: #F54932;
+    --info-color: #3057A2;
+}
+
+.page {
+    /* max-width: 1366px; */
+    color: var(--main-text-color);
+    font-family: var(--main-font);
+    background-color: var(--bg-color);
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* .centered  {
+    max-width: 1366px;
+} */
+
+
+/* @media screen and (max-width: 1366px) {
+    .logo {
+        margin-left: 349px;
+    }
+
+    .header__circle-text {
+        left: 673px;
+        background: #000;
+        right: 53px;
+    }
+} */

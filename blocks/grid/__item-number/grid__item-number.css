@@ -1,0 +1,21 @@
+.grid__item-number {
+    font-family: var(--main-font);
+    margin: 0;
+    padding: 12px;
+    font-weight: 600;
+    font-size: 20px;
+	background-color: #FFF;
+	color: currentColor;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    height: 12px;
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 780px) {
+    .grid__item-number{
+        align-self: center;
+    }
+}

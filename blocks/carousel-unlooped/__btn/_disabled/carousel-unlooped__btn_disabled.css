@@ -1,0 +1,4 @@
+.carousel-unlooped__btn_disabled .carousel__btn {
+    filter: opacity(0.2);
+    cursor: default;
+}

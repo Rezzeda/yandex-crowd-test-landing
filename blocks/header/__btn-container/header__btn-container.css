@@ -1,0 +1,16 @@
+.header__btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    max-width: 542px;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 780px){
+    .header__btn-container {
+        flex-direction: column;
+        margin-top: 32px;
+    }
+}

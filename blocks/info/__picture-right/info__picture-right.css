@@ -1,0 +1,17 @@
+.info__picture-right {
+    width: 394px;
+    height: 250px;
+    padding-left: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 1278px){
+    .info__picture-right {
+        width: 335px;
+        height: 212.56px;
+        position: static;
+        padding: 20px 0;
+    }
+}

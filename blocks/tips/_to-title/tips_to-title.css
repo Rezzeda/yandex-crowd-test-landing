@@ -1,0 +1,15 @@
+.tips_to-title {
+    text-transform: none;
+    max-width: 280px;
+    position: absolute;
+    left: 300px;
+    bottom: 10px;
+}
+
+@media screen and (max-width: 780px){
+    .tips_to-title {
+        max-width: 335px;
+        left: 0;
+        bottom: -57px;
+    }
+}

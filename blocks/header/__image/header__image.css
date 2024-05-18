@@ -1,0 +1,16 @@
+.header__image {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    object-fit: cover;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding-left: 25px;
+}
+
+@media screen and (max-width: 780px){
+    .header__image {
+        width: 812px;
+        left: 46px;
+    }
+}

@@ -1,0 +1,8 @@
+.carousel-unlooped__btn {
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    width: 36px;
+    height: 36px;
+}

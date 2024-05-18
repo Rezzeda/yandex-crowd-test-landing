@@ -1,0 +1,16 @@
+.info__box-top {
+    max-width: 1222px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 64px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+    position: relative;
+}
+
+@media screen and (max-width: 1024px){
+    .info__box-top {
+        flex-direction: column;
+    }
+}

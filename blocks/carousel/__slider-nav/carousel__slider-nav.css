@@ -1,0 +1,21 @@
+.carousel__slider-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    column-gap: 14px;
+    position: absolute;
+    top: 9px;
+    right: 0;
+}
+
+@media screen and (max-width: 914px) {
+    .carousel__slider-nav {
+        top: unset;
+        right: unset;
+        bottom: -40px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+}

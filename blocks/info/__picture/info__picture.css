@@ -1,0 +1,17 @@
+.info__picture {
+    position: absolute;
+    top: -46px;
+    left: -27px;
+    width: 474px;
+    height: 527px;
+}
+
+@media screen and (max-width: 1366px) {
+    .info__picture {
+        width: 369px;
+        height: 428px;
+        top: -42px;
+        right: unset;
+        left: -17px;
+    }
+}

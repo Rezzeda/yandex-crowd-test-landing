@@ -1,0 +1,20 @@
+.stages__title {
+    max-width: 800px;
+    font-family: var(--accent-font);
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 64.8px;
+    color: currentColor;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 54px;
+}
+
+@media screen and (max-width: 780px){
+    .stages__title {
+        font-size: 36px;
+        line-height: 39.6px;
+        margin: 0;
+        margin-bottom: 200px;
+    }
+}

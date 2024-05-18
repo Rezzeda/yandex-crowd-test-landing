@@ -1,0 +1,18 @@
+.header__chess-figure {
+    position: absolute;
+    right: 3%;
+    bottom: 20px;
+    z-index: 10;
+}
+
+@media screen and (max-width: 1365px){
+    .header__chess-figure {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1367px){
+    .header__chess-figure {
+        right: 17%;
+    }
+}

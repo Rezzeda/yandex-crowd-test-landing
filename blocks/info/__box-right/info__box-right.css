@@ -1,0 +1,11 @@
+.info__box-right {
+    max-width: 704px;
+    padding-left: 518px;
+}
+
+@media screen and (max-width: 780px){
+    .info__box-right {
+        padding-left: 0;
+        margin-top: 397px;
+    }
+}

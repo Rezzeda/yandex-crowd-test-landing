@@ -1,0 +1,18 @@
+.header__subtitle {
+    font-family: var(--main-font);
+    font-weight: 400;
+    line-height: 23.4px;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-left: 36px;
+}
+
+@media screen and (max-width: 1365px){
+    .header__subtitle {
+        max-width: 335px;
+        line-height: 23.4px;
+        font-size: 18px;
+        padding-top: 5px;
+        padding-left: 0px;
+    }
+}

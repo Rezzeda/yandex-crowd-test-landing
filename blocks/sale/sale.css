@@ -1,0 +1,5 @@
+.sale {
+    text-decoration: line-through;
+    text-decoration-color: var(--highlight-color);
+    text-decoration-thickness: 2px;
+}

@@ -1,0 +1,11 @@
+.participants {
+    margin-top: 160px;
+    margin-bottom: 130px;
+}
+
+@media screen and (max-width: 780px) {
+    .participants {
+        margin-top: 184px;
+        margin-bottom: 137px;
+    }
+}

@@ -1,0 +1,11 @@
+.header__btn_color_dark {
+    background-color: var(--btn-color-dark);
+    color: var(--bg-color);
+    z-index: 10;
+}
+
+.header__btn_color_dark:hover {
+    background-color: var(--btn-color-hover);
+    color: var(--btn-color-dark);
+    border: none;
+}

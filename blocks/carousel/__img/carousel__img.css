@@ -1,0 +1,12 @@
+.carousel__img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 780px) {
+    .carousel__img {
+        width: 244px;
+        height: 244px;
+    }
+}

@@ -1,0 +1,26 @@
+.carousel__btn {
+    position: relative;
+    display: inline-block; 
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    color: currentColor;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    fill: #313131;
+}
+
+.carousel__btn:hover {
+    fill: #FBCE51;
+}
+
+@media screen and (max-width: 780px) {
+    .carousel__btn {
+        width: 36px;
+        height: 36px;
+    }
+}

@@ -1,0 +1,17 @@
+.logo__image {
+    background-image: url(../../../images/logo-horse.svg);
+    background-size: 22px 30px;
+    background-repeat: space;
+    width: 90px;
+    height: 32px;
+    margin-top: 9px;
+}
+
+@media screen and (max-width: 1365px){
+
+    .logo__image {
+        width: 79.5px;
+        height: 32px;
+        background-size: 19px 32px;
+    }
+}

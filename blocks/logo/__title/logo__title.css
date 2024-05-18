@@ -1,0 +1,23 @@
+.logo__title {
+    margin: 0;
+    padding: 0;
+    margin-top: 6px;
+    width: 147px;
+    height: 36px;
+    font-size: 16.65px;
+    line-height: 17.98px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #595653;
+}
+
+@media screen and (max-width: 1365px){
+    .logo__title {
+        width: 137px;
+        height: 36px;
+        font-size: 14.4px;
+        line-height: 15.73px;
+        margin-top: 10px;
+        
+    }
+}

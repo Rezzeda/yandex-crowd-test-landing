@@ -1,0 +1,18 @@
+.carousel__title {
+    margin: 0;
+    padding: 0;
+    font-family: var(--accent-font);
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 64.8px;
+    color: currentColor;
+    text-transform: uppercase;
+    position: relative;
+}
+
+@media screen and (max-width: 780px) {
+    .carousel__title {
+        font-size: 36px;
+        line-height: 39.6px;
+    }
+}

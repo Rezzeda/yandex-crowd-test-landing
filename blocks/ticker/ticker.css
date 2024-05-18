@@ -1,0 +1,15 @@
+.ticker{
+    height: 60px;
+    width: 100vw;
+    margin: 0 auto;
+    background: var(--highlight-color);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 1365px){
+    .ticker {
+        height: 38px;
+    }    
+}

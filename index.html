@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Four Horse Club</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class="page">
+    <header class="header">
+        <div class="logo">
+            <div class="logo__image"></div>
+            <h1 class="logo__title">Клуб четырех&nbsp;коней</h1>
+        </div>
+        <img class="header__image" src="./images/city.png" alt="city collage">
+        <img class="header__circle-text rotation" src="./images/circle-text.svg" alt="circle with text">
+        <img class="header__chess-figure" src="./images/chess-figure.png" alt="white chess figure">
+        <div class="header__container">
+            <h2 class="header__title">Превратите уездный город &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;в&nbsp;столицу &nbsp;&nbsp;земного шара</h2>
+            <p class="header__subtitle">&nbsp;&nbsp;&nbsp;&nbsp;Оплатите взнос на&nbsp;телеграммы для&nbsp;организации Международного васюкинского турнира по&nbsp;шахматам</p>
+            <div class="header__btn-container">
+                <a href="#support" class="header__btn header__btn_color_dark">Поддержать шахматную мысль</a>
+                <a href="#info" class="header__btn header__btn_color_light">Подробнее о&nbsp;турнире</a>
+            </div>
+        </div>
+    </header>
+    <section class='ticker' aria-label="running-line">
+        <ul class="ticker__text-content">
+            <li class="ticker__text-item">
+                <p class="ticker__text"> &#8226 Дело помощи утопающим — дело рук самих утопающих!</p>
+            </li>
+            <li class="ticker__text-item">
+                <p class="ticker__text"> &#8226 Шахматы двигают вперед не только культуру, но и экономику!</p>
+            </li>
+            <li class="ticker__text-item">
+                <p class="ticker__text">&#8226 Лед тронулся, господа присяжные заседатели!</p>
+            </li>
+        </ul>
+    </section>  
+    <main class="content">  
+        <section class="info" aria-label="info-box">
+            <div class="info__box-top">
+                <p id="support" class="info__text">Чтобы поддержать Международный васюкинский турнир 
+                    <img class="info__picture-right" src="./images/info-box-top.png" alt="men playing chess">
+                    посетите лекцию на&nbsp;тему: 
+                    <span class="highlight">&laquo;Плодотворная дебютная идея&raquo;</span>
+                </p>
+            </div>
+            <div class="info__box-bottom">
+                <div class="info__box-left">
+                    <img class="info__picture" src="./images/info-pic-1.png" alt="man playing chess collage">
+                </div>
+                <div class="info__box-right">
+                    <p class="info__text">
+                        и&nbsp;Сеанс 
+                        <span class="highlight">одновременной игры в&nbsp;шахматы на&nbsp;160 досках </span>
+                        гроссмейстера О.&nbsp;Бендера
+                    </p>
+                    <table class="table"> 
+                        <tbody class="table__body">
+                            <tr class="table__row"> 
+                                <td class="table__column table__column-title">Место проведения:</td> 
+                                <td class="table__column table__column-text">Клуб «Картонажник»</td> 
+                            </tr> 
+                            <tr class="table__row"> 
+                                <td class="table__column table__column-title">Дата и&nbsp;время мероприятия:</td> 
+                                <td class="table__column table__column-text">22&nbsp;июня 1927&nbsp;г.&nbsp;в&nbsp;18:00</td> 
+                            </tr>
+                            <tr class="table__row"> 
+                                <td class="table__column table__column-title">Стоимость входных билетов:</td> 
+                                <td class="table__column table__column-text">20&nbsp;коп.</td> 
+                            </tr>
+                            <tr class="table__row"> 
+                                <td class="table__column table__column-title">Плата за&nbsp;игру:</td> 
+                                <td class="table__column table__column-text">50&nbsp;коп.</td> 
+                            </tr>
+                            <tr class="table__row"> 
+                                <td class="table__column table__column-title">Взнос на&nbsp;телеграммы:</td> 
+                                <td class="table__column table__column-text"><span class="sale">100 руб.</span>&nbsp;21 руб. 16 коп.</td> 
+                            </tr> 
+                        </tbody> 
+                    </table>
+                    <span class="tips">По&nbsp;всем вопросам обращаться в&nbsp;администрацию к&nbsp;К.&nbsp;Михельсону</span>
+                </div>
+            </div>
+        </section>
+        <section class="stages">
+            <h2 class="stages__title">Этапы преображения Васюков<span class="tips tips_to-title">Будущие источники обогащения васюкинцев</span></h2>
+            <img class="stages__picture" src="./images/plane.png" alt="flying plane">
+            <div class="grid" id="gridContainer">
+                <!-- Здесь добавятся элементы грида -->
+            </div>
+            <div class="carousel-unlooped" id="carousel-unlooped">
+                <div class="carousel__slider-nav carousel-unlooped__slider-nav">
+                    <button type="button" class="carousel-unlooped__btn carousel-unlooped__previous carousel-unlooped__btn-disabled">
+                        <svg class="carousel__btn" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="22" cy="22" r="22" transform="rotate(-180 22 22)"/>
+                            <path d="M24.5382 30.4615L16.0767 21.9999L24.5382 13.5384" stroke="white" stroke-width="2" stroke-linecap="square"/>
+                        </svg>
+                    </button>
+                    <div class="carousel-unlooped__indicators"></div>
+                    <button type="button" class="carousel-unlooped__btn carousel-unlooped__next">
+                        <svg class="carousel__btn" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="22" cy="22" r="22"/>
+                            <path d="M19.4618 13.5384L27.9233 21.9999L19.4618 30.4615" stroke="white" stroke-width="2" stroke-linecap="square"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="carousel-unlooped__slider">
+                    <!-- Здесь добавятся элементы карусели -->
+                </div>
+            </div>
+        </section>
+        <section class="participants">
+            <div class="carousel">
+                    <h2 id="info" class="carousel__title">Участники турнира</h2>
+                    <div class="carousel__slider-nav">
+                        <button type="button" class="carousel__btn carousel__previous">
+                            <svg class="carousel__btn" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="22" cy="22" r="22" transform="rotate(-180 22 22)"/>
+                                <path d="M24.5382 30.4615L16.0767 21.9999L24.5382 13.5384" stroke="white" stroke-width="2" stroke-linecap="square"/>
+                            </svg>
+                        </button>
+                        <p class="carousel__image-counter"></p>
+                        <button type="button" class="carousel__btn carousel__next">
+                            <svg class="carousel__btn" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="22" cy="22" r="22"/>
+                                <path d="M19.4618 13.5384L27.9233 21.9999L19.4618 30.4615" stroke="white" stroke-width="2" stroke-linecap="square"/>
+                            </svg>
+                        </button>
+                    </div>
+                <div class="carousel__slider">
+                    <template id="carousel-card-template">
+                        <div class="carousel__card">
+                            <img class="carousel__img" src="" alt="">
+                            <p class="carousel__name"></p>
+                            <p class="carousel__status"></p>
+                            <a class="carousel__link" href="#">Подробнее</a>
+                        </div>
+                    </template>
+                </div> 
+            </div>
+        </section>
+    </main>
+    <section class='ticker' aria-label="running-line">
+        <ul class="ticker__text-content">
+            <li class="ticker__text-item">
+                <p class="ticker__text"> &#8226 Дело помощи утопающим — дело рук самих утопающих!</p>
+            </li>
+            <li class="ticker__text-item">
+                <p class="ticker__text"> &#8226 Шахматы двигают вперед не только культуру, но и экономику!</p>
+            </li>
+            <li class="ticker__text-item">
+                <p class="ticker__text">&#8226 Лед тронулся, господа присяжные заседатели!</p>
+            </li>
+        </ul>
+    </section>  
+    <footer class="footer">     
+        <p class="footer__text">Все персонажи, события и&nbsp;цитаты являются вымышленными и&nbsp;не&nbsp;принадлежат создателям сайта. С&nbsp;подробностями можно познакомиться в&nbsp;главе XXXIV романа Ильи Ильфа и&nbsp;Евгения Петрова &laquo;Двенадцать стульев&raquo;.</p>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>

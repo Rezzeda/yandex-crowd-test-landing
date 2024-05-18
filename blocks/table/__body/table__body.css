@@ -1,0 +1,10 @@
+@media screen and (max-width: 1278px) {
+    .table__body .table__column {
+        display: block; 
+        text-align:start;
+    }
+
+    .table__body .table__row:nth-of-type(2n) {
+        background-color: #fff;
+    }
+}

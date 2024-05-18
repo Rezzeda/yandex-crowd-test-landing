@@ -1,0 +1,15 @@
+.table__column:not(:first-child) {
+    border-left: 2px solid lightgray;
+}
+
+@media screen and (max-width: 1278px) {
+    .table__column {
+        padding-bottom: 10px;
+    }
+
+    .table__column:not(:first-child) {
+        border-left: none;
+        padding-top: 10px;
+    }
+
+}

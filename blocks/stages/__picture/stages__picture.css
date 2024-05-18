@@ -1,0 +1,24 @@
+.stages__picture {
+    position: absolute;
+    right: -63px;
+    bottom: 39px;
+}
+
+@media (min-width: 376px) and (max-width: 1366px) {
+    .stages__picture {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .stages__picture {
+        position: absolute;
+        width: 100%;
+        top: 191px;
+        left: 10px;
+        bottom: unset;
+        right: unset;
+        transform: rotate(-4deg);
+        z-index: 1;
+    }
+}

@@ -1,0 +1,21 @@
+.header {
+    width: 100vw;
+    height: 700px;
+    background-color: var(--bg-textured-color);
+    background-image: url(../../images/texture-bg.png);
+    background-blend-mode: color-burn;
+    position: relative;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 1366px){
+    .header {
+        max-width: 1920px;
+    }
+}
+
+@media screen and (max-width: 1365px){
+    .header {
+        height: 774px;
+    }
+}

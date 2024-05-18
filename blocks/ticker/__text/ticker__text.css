@@ -1,0 +1,16 @@
+.ticker__text {
+    font-family: var(--accent-font);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24.2px;
+    text-align: right;
+    color: var(--bg-color);
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1365px){
+    .ticker__text {
+        font-size: 16px;
+        line-height: 17.6px;
+    }
+}  

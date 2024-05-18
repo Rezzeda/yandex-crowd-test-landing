@@ -1,0 +1,22 @@
+.header__btn {
+    box-sizing: border-box;
+    width: 273px;
+    height: 72px;
+    text-decoration: none;
+    color: currentColor;
+    padding: 20px 49px;
+    text-align: center;
+    border: 2px solid var(--btn-color-dark);
+    border-radius: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 780px){
+    .header__btn {
+        width: 336px;
+        padding: 18px 43px;
+        height: 47px;
+    }
+}

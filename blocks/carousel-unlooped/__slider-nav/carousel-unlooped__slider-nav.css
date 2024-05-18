@@ -1,0 +1,12 @@
+.carousel-unlooped__slider-nav {
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 780px) {
+    .carousel-unlooped__slider-nav {
+        margin-bottom: -24px;
+    }
+}

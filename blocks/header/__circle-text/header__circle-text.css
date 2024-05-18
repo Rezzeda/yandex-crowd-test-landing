@@ -1,0 +1,14 @@
+.header__circle-text {
+    position: absolute;
+    top: -65px;
+    left: 407px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 780px){
+    .header__circle-text {
+        width: 531px;
+        top: 400px;
+        left: -88px;
+    }
+}

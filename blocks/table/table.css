@@ -1,0 +1,13 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+@media screen and (max-width: 1278px) {
+    .table {
+        margin-top: 44px;
+        margin-bottom: 34px;
+    }
+}

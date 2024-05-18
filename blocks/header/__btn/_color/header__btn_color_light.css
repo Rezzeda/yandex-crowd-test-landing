@@ -1,0 +1,19 @@
+.header__btn_color_light {
+    background-color: var(--btn-color-light);
+    z-index: 10;
+}
+
+.header__btn_color_light:hover {
+    background-color: var(--btn-color-dark);
+    color: var(--bg-color);
+    border: none;
+}
+
+@media screen and (max-width: 780px){
+    .header__btn_color_light {
+        background-color: var(--bg-color);
+        opacity: 90;
+        color: var(--main-text-color);
+        border: none;
+    }
+}
