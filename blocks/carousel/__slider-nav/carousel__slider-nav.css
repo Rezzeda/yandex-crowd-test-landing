@@ -1,7 +1,7 @@
 .carousel__slider-nav {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    /* align-items: center; */
     padding: 0;
     margin: 0;
     column-gap: 14px;
